@@ -7,20 +7,20 @@ class MusicRepository {
     fun getSongsForMood(mood: String): List<Song> {
         return when (mood) {
             "Happy" -> listOf(
-                Song("Happy Vibes", R.raw.happy_vibes),
-                Song("Sunshine Beat", R.raw.sunshine_beats)
+                Song("STFU AP-Dhillon", R.raw.stfu_ap_dhillon),
+                Song("Fakira Song", R.raw.fakira)
             )
             "Sad" -> listOf(
-                Song("Sad Piano", R.raw.sad_piano),
-                Song("Rainy Mood", R.raw.sad_piano)
+                Song("Mein Ishq Likhun Tujhe Ho Jaye..", R.raw.ishq),
+                Song("Tumhin Dillagi Bhul Jani Pary Gi.. ", R.raw.dillagi)
             )
             "Energetic" -> listOf(
-                Song("Workout Jam", R.raw.happy_vibes),
-                Song("Boost Up", R.raw.sunshine_beats)
+                Song("Workout Jam", R.raw.supreme),
+                Song("Boost Up", R.raw.her)
             )
             "Calm" -> listOf(
-                Song("Calm Waves", R.raw.sad_piano),
-                Song("Zen Garden", R.raw.happy_vibes)
+                Song("JhOL..", R.raw.jhol),
+                Song("Sahibaa...", R.raw.sahiba)
             )
             else -> emptyList()
         }
