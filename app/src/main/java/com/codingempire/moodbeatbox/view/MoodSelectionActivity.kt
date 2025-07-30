@@ -29,7 +29,7 @@ class MoodSelectionActivity : AppCompatActivity() {
         }
 
         binding.btnCalm.setOnClickListener {
-            goToMusicScreen("Calm")
+            goToMusicScreen("Relaxed")
         }
     }
 
