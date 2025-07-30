@@ -17,22 +17,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Profile icon -->
-    <ImageView
-        android:id="@+id/ivProfile"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:contentDescription="Profile"
-        android:src="@drawable/ic_profile"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Now Playing Text -->
     <TextView
         android:id="@+id/tvNowPlaying"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="80dp"
         android:text="Now Playing:"
         android:textColor="#FFD699"
         android:textSize="18sp"

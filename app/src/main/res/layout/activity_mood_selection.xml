@@ -11,8 +11,8 @@
     <!-- Back Icon -->
     <ImageView
         android:id="@+id/ivBack"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:src="@drawable/ic_back"
         android:contentDescription="Back"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,8 +23,8 @@
     <!-- Profile Icon -->
     <ImageView
         android:id="@+id/ivProfile"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:src="@drawable/ic_profile"
         android:contentDescription="Profile"
         app:layout_constraintTop_toTopOf="parent"
@@ -68,7 +68,7 @@
             android:layout_width="0dp"
             android:layout_height="150dp"
             app:cardCornerRadius="20dp"
-            app:cardBackgroundColor="#263344"
+            app:cardBackgroundColor="@android:color/transparent"
             app:cardElevation="8dp"
             app:layout_columnWeight="1"
             android:layout_margin="8dp">
@@ -77,6 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@drawable/card_border"
                 android:orientation="vertical">
 
                 <TextView
@@ -92,15 +93,9 @@
                     android:layout_height="wrap_content"
                     android:text="Happy"
                     android:textSize="16sp"
-                    android:textColor="#FFD699"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="Bright music to match your Glow"
                     android:textColor="@color/white"
-                    android:layout_marginStart="6dp"/>
+                    android:textStyle="bold"/>
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -110,7 +105,7 @@
             android:layout_width="0dp"
             android:layout_height="150dp"
             app:cardCornerRadius="20dp"
-            app:cardBackgroundColor="#263344"
+            app:cardBackgroundColor="@android:color/transparent"
             app:cardElevation="8dp"
             app:layout_columnWeight="1"
             android:layout_margin="8dp">
@@ -119,6 +114,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@drawable/card_border"
                 android:orientation="vertical">
 
                 <TextView
@@ -133,15 +129,9 @@
                     android:layout_height="wrap_content"
                     android:text="Sad"
                     android:textSize="16sp"
-                    android:textColor="#FFD699"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Music that Comfort and understands you"
                     android:textColor="@color/white"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="6dp"/>
+                    android:textStyle="bold"/>
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -151,7 +141,6 @@
             android:layout_width="0dp"
             android:layout_height="150dp"
             app:cardCornerRadius="20dp"
-            app:cardBackgroundColor="#263344"
             app:cardElevation="8dp"
             app:layout_columnWeight="1"
             android:layout_margin="8dp">
@@ -160,6 +149,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@drawable/card_border"
                 android:orientation="vertical">
 
                 <TextView
@@ -174,16 +164,9 @@
                     android:layout_height="wrap_content"
                     android:text="Energetic"
                     android:textSize="16sp"
-                    android:textColor="#FFD699"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="High-Tempo Beats to match your fire"
                     android:textColor="@color/white"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="4dp"
-                    />
+                    android:textStyle="bold"/>
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -193,7 +176,6 @@
             android:layout_width="0dp"
             android:layout_height="150dp"
             app:cardCornerRadius="20dp"
-            app:cardBackgroundColor="#263344"
             app:cardElevation="8dp"
             app:layout_columnWeight="1"
             android:layout_margin="8dp">
@@ -202,6 +184,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@drawable/card_border"
                 android:orientation="vertical">
 
                 <TextView
@@ -216,16 +199,9 @@
                     android:layout_height="wrap_content"
                     android:text="Relaxed"
                     android:textSize="16sp"
-                    android:textColor="#FFD699"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Melodies to melt stress away!"
                     android:textColor="@color/white"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="4dp"
-                    />
+                    android:textStyle="bold"/>
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
