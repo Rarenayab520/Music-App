@@ -18,7 +18,7 @@ class MusicRepository {
                 Song("Workout Jam", R.raw.supreme),
                 Song("Boost Up", R.raw.her)
             )
-            "Calm" -> listOf(
+            "Relaxed" -> listOf(
                 Song("JhOL..", R.raw.jhol),
                 Song("Sahibaa...", R.raw.sahiba)
             )
