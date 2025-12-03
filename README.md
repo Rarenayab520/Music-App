@@ -3,7 +3,7 @@
 A fast, fully offline Android music player that organizes songs by **mood** and plays them instantly.
 
 <p align="center">
-  <img src="./app/src/main/res/drawable/music_logo.xml" alt="App Logo" width="140"/>
+  <img src="./app/src/main/res/drawable/img.png" alt="App Logo" width="140"/>
 </p>
 
 ---
