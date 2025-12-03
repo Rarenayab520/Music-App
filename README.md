@@ -78,3 +78,4 @@ git clone https://github.com/Rarenayab520/Music-App.git
 Open in Android Studio → build → run.
 
 All required audio files are already included in the app.
+<!-- commit 1 -->
