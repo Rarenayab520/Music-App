@@ -1,40 +1,80 @@
-# Music-App 🎶  
+# 🎵 Music App – Offline Mood-Based Music Player
 
-A simple, fully offline Android music player — sorted by mood.  
+A fast, fully offline Android music player that organizes songs by **mood** and plays them instantly.
 
-## What is This  
+<p align="center">
+  <img src="./app/src/main/res/drawable/music_logo.xml" alt="App Logo" width="140"/>
+</p>
 
-Music-App is a local music player for Android devices: as soon as you run it, it scans the device for audio files, lets you tag or categorize songs by mood (e.g. Chill, Focus, Workout, Happy, Sad), and then allows playback **entirely offline**.  
-No streaming, no server, no credentials, no privacy-infringing permissions — just music, the way you feel.
+---
 
-## Why  
+## ⭐ Overview
+Music App provides a smooth, offline-only listening experience.  
+All songs are bundled inside the app (`res/raw/`), and each track is linked to a specific **mood category**.
 
-- Sometimes you don’t want streaming.  
-- Sometimes you want music that matches your mood — instantly.  
-- Sometimes you’re offline or don’t want data usage.  
-- This app gives you a mood-aware, lightning-fast, offline-first experience.
+No internet. No scanning. No ads.  
+Everything works immediately after installation.
 
-## Features  
+---
 
-- 💽 **Local file scanning** — automatically finds music files on your storage.  
-- 🎭 **Mood-based playlists** — tag or categorize songs by mood, then pick a mood to play.  
-- ▶️ **One-tap play** — select a mood → playlist loads → playback starts.  
-- 🔀 **Shuffle and queue management** — mood-specific shuffle so you get a fresh mix each time.  
-- 📱 **Android native (Kotlin)** — built with Jetpack / standard Android libs for smooth performance.  
-- 🌙 **Works fully offline** — no network calls, no ads, no unwanted permissions.  
+## 🎭 Mood Categories
+The app includes a clean mood-selection screen with four core moods:
 
-## Tech & Structure  
+- 😊 **Happy**
+- 😢 **Sad**
+- ⚡ **Energetic**
+- 🌙 **Relaxed**
 
-- Developed in **Kotlin** (see code base: 100% Kotlin). :contentReference[oaicite:1]{index=1}  
-- Standard Android project structure (Gradle build scripts, `app/` module). :contentReference[oaicite:2]{index=2}  
-- Use of Android media APIs (MediaPlayer or ExoPlayer — whichever you prefer to implement).  
-- Simple architecture: scanning → categorizing → playlist / mood mapping → playback.  
+Tap a mood → the app instantly plays the songs assigned to that emotion from the `raw/` folder.
 
-## Getting Started  
+---
 
-Clone the repo and open in Android Studio:
+## 🚀 Features
+
+### 🔒 100% Offline Playback
+All music files are packaged directly into the app under `res/raw/`.  
+Works without WiFi, mobile data, or storage permissions.
+
+### 🎵 Mood-Based Playlists
+Each mood corresponds to a curated internal playlist that starts immediately when selected.
+
+### 🎧 Smooth Music Player
+Built using Android’s native MediaPlayer for reliable playback.
+
+### 🎨 Clean & Minimal UI
+Simple mood cards, icons, gradients, and a distraction-free design.
+
+### 🛠 Tech Stack
+- Kotlin  
+- MVVM Architecture  
+- Jetpack Components  
+- MediaPlayer  
+- Material Design  
+
+---
+
+## 🧠 How It Works
+1. All audio files are placed inside `res/raw/`.  
+2. Each file is mapped to a mood category in the code.  
+3. User selects a mood on the home screen.  
+4. The app loads the playlist for that mood.  
+5. Playback starts instantly — fully offline.
+
+---
+
+
+## 🔐 Permissions
+No storage permission required.  
+Music is bundled internally, and the app does not access online services.
+
+---
+
+## 📥 Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/Rarenayab520/Music-App.git
-cd Music-App
-# Then open the project in Android Studio and build/run on device or emulator.
+Open in Android Studio → build → run.
+
+All required audio files are already included in the app.
