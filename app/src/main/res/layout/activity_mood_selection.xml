@@ -14,7 +14,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:src="@drawable/ic_back"
-        android:contentDescription="Back"
+        android:contentDescription="@string/back2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="16dp"
@@ -26,7 +26,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:src="@drawable/ic_profile"
-        android:contentDescription="Profile"
+        android:contentDescription="@string/profile"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
@@ -37,7 +37,7 @@
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="How are you feeling today ?"
+        android:text="@string/how_are_you_feeling_today"
         android:textStyle="bold"
         android:textSize="24sp"
         android:textColor="@color/white"
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="😊"
+                    android:text="@string/happy"
                     android:textSize="30sp"
                     android:textAlignment="center"
                     android:textColor="#FFD699"/>
@@ -91,7 +91,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Happy"
+                    android:text="@string/texthappy"
                     android:textSize="16sp"
                     android:textColor="@color/white"
                     android:textStyle="bold"/>
@@ -120,14 +120,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="😢"
+                    android:text="@string/sad"
                     android:textSize="30sp"
                     android:textColor="#FFD699"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sad"
+                    android:text="@string/textsad"
                     android:textSize="16sp"
                     android:textColor="@color/white"
                     android:textStyle="bold"/>
@@ -155,14 +155,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="⚡"
+                    android:text="@string/energy"
                     android:textSize="30sp"
                     android:textColor="#FFD699"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Energetic"
+                    android:text="@string/energetic"
                     android:textSize="16sp"
                     android:textColor="@color/white"
                     android:textStyle="bold"/>
@@ -190,14 +190,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="🌙"
+                    android:text="@string/mood"
                     android:textSize="30sp"
                     android:textColor="#FFD699"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Relaxed"
+                    android:text="@string/relaxed"
                     android:textSize="16sp"
                     android:textColor="@color/white"
                     android:textStyle="bold"/>

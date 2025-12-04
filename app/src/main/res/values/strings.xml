@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Mood Beat Box</string>
+    <string name="back">Back</string>
+    <string name="now_playing">Now Playing:</string>
+    <string name="song_title">Song Title</string>
+    <string name="back2">Back</string>
+    <string name="profile">Profile</string>
+    <string name="how_are_you_feeling_today">How are you feeling today ?</string>
+    <string name="happy">😊</string>
+    <string name="texthappy">Happy</string>
+    <string name="sad">😢</string>
+    <string name="textsad">Sad</string>
+    <string name="energy">⚡</string>
+    <string name="energetic">Energetic</string>
+    <string name="mood">🌙</string>
+    <string name="relaxed">Relaxed</string>
+    <string name="mood_beat_box">Mood Beat Box</string>
+    <string name="logo">LOGO</string>
 </resources>

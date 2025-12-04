@@ -10,6 +10,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerInParent="true"
+        android:contentDescription="@string/logo"
         android:src="@drawable/music_logo" />
 
     <TextView
@@ -18,7 +19,7 @@
         android:layout_below="@id/musicLogo"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:text="Mood Beat Box"
+        android:text="@string/mood_beat_box"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@android:color/white" />
